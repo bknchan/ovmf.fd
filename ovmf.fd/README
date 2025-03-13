@@ -1,0 +1,7 @@
+edk2-ovmf-nightly
+=================
+
+This repository uses GitHub workflows to build nightly images of EDK2 OVMF
+firmware for QEMU.
+
+See Releases.
