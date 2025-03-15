@@ -3,6 +3,8 @@ name: Nightly OVMF.fd Builds
 on:
   schedule:
     - cron: '0 0 * * *'
+  issue_comment:
+    types: [created]
 
 jobs:
   nightly:
@@ -42,7 +44,7 @@ jobs:
 
           cp Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd output/ovmf-code-x86_64.fd
           cp Build/OvmfX64/RELEASE_GCC5/FV/OVMF_VARS.fd output/ovmf-vars-x86_64.fd
-          ls Build/OvmfX64/RELEASE_GCC5/FV/OVMF.fd output/ovmf.86_64.fd
+          cp Build/OvmfX64/RELEASE_GCC5/FV/OVMF.fd output/ovmf.86_64.fd
 
       - name: Set TAG_DATE variable
         run: echo "TAG_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
