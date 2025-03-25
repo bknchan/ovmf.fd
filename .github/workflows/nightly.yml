@@ -1,8 +1,6 @@
 name: Nightly OVMF.fd Builds
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
   
 jobs:
@@ -46,7 +44,7 @@ jobs:
           cp Build/OvmfX64/RELEASE_GCC5/FV/OVMF.fd output/ovmf.86_64.fd
 
       - name: Set TAG_DATE variable
-        run: echo "TAG_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+        run: echo "TAG_DATE=$(date +'%Y-%m-%d-%H-%M')" >> $GITHUB_ENV
 
       - name: Tag new nightly release
         run: git tag nightly-$TAG_DATE && git push --tags
