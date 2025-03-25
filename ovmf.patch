@@ -81,10 +81,10 @@ index ecd22b0..a48bc0b 100644
 -  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|800
 -  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1280
 -  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|800
-+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1024^M
-+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|600^M
-+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1024^M
-+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|600^M
++  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1024
++  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|600
++  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1024
++  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|600
    gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|0
    gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|0
    gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|0
