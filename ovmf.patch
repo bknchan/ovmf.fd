@@ -75,12 +75,12 @@ index ecd22b0..139f922 100644
 @@ -3,9 +3,9 @@
  ##
  
-   gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1280
+   gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1024
 -  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|800
-+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|600^M
-   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1280
++  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|600
+   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1024
 -  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|800
-+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|600^M
++  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|600
    gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|0
    gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|0
    gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|0
